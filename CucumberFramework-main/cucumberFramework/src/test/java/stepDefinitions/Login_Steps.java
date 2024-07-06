@@ -16,7 +16,7 @@ public class Login_Steps extends BaseClass {
         Helper.getWebURL();
         Helper.getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         loginPage.verifyUsername();
-        System.out.println("");
+        System.out.println("main update");
 
     }
 
